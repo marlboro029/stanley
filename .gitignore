@@ -2,3 +2,6 @@
 *.ipr
 *.iml
 *.iws
+
+# compile class file
+webapps/WEB-INF/classes/**/*.class
