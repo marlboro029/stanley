@@ -17,4 +17,13 @@ public class UserModel {
     public void setName(final String name) {
         this.name = name;
     }
+    private String password;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
