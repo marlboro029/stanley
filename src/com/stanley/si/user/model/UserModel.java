@@ -8,4 +8,13 @@ package com.stanley.si.user.model;
  * Mail:<a href="marlboro027@gmail.com">Marlboro</a>.
  */
 public class UserModel {
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(final String name) {
+        this.name = name;
+    }
 }
